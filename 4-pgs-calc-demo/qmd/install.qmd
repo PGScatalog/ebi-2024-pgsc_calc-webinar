@@ -272,8 +272,6 @@ If you use pgscatalog/pgsc_calc for your analysis please cite:
 ```
 </details>
 
-![](img/testprofile.gif)
-
 If you can see the message `Pipeline completed successfully`, that means you've:
 
 * Installed the PGS Catalog Calculator
