@@ -8,8 +8,12 @@ Click on the link above to see a step-by-step guide about how to install the [PG
 
 ## Example output reports
 
-* [Standard results report](https://html-preview.github.io/?url=https://github.com/EBISPOT/eshg-2024-workshop/blob/main/4-pgs-calc-demo/standard-results.html)
-* [Ancestry adjusted results report](https://html-preview.github.io/?url=https://github.com/EBISPOT/eshg-2024-workshop/blob/main/4-pgs-calc-demo/ancestry-results.html)
+Download these files (right click and save as):
+
+* [Standard results report](https://raw.githubusercontent.com/EBISPOT/eshg-2024-workshop/main/4-pgs-calc-demo/standard-results.html?raw=true)
+* [Ancestry adjusted results report](https://raw.githubusercontent.com/EBISPOT/eshg-2024-workshop/main/4-pgs-calc-demo/ancestry-results.html?raw=true)
+
+And open them in a web browser to see some example output reports from the PGS Catalog Calculator. 
 
 ## Slides
 
