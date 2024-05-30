@@ -17,6 +17,8 @@ And open them in a web browser to see some example output reports from the PGS C
 
 ## Slides
 
+[PDF slides are also available.](slides/slides_pgsc_calc.pdf)
+
 ## Next steps
 
 Read the PGS Catalog Calculator documentation to learn more about [how to get started working with your own data](https://pgsc-calc.readthedocs.io/en/latest/getting-started.html).
