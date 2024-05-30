@@ -6,6 +6,13 @@ Click on the link above to see a step-by-step guide about how to install the [PG
 
 ![](https://github.com/EBISPOT/eshg-2024-workshop/blob/main/4-pgs-calc-demo/img/testprofile.gif)
 
+## Example output reports
+
+* [Standard results report](https://html-preview.github.io/?url=https://github.com/EBISPOT/eshg-2024-workshop/blob/main/4-pgs-calc-demo/standard-results.html)
+* [Ancestry adjusted results report](https://html-preview.github.io/?url=https://github.com/EBISPOT/eshg-2024-workshop/blob/main/4-pgs-calc-demo/ancestry-results.html)
+
+## Slides
+
 ## Next steps
 
 Read the PGS Catalog Calculator documentation to learn more about [how to get started working with your own data](https://pgsc-calc.readthedocs.io/en/latest/getting-started.html).
