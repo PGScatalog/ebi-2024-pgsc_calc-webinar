@@ -55,21 +55,30 @@
 #   Hide                            Hide the subsequent commands from the output
 #   Show                            Show the subsequent commands in the output
 
-Output ancestry.webm
+Output ancestry.mp4
 
 Require nextflow
 
 Set Shell "zsh"
-Set FontSize 24
-Set Width 1800
-Set Height 1200
+Set FontSize 14
+Set Width 800
+Set Height 600
 Set WindowBar Colorful
+
+Set Framerate 30
+
 
 Sleep 2s 
 
 Type "nextflow run pgscatalog/pgsc_calc -profile docker,arm -resume \"
 
+Enter
+
 Sleep 5s
+
+Type "-r v2.0.0-alpha.5 \"
+
+Sleep 5s 
 
 Enter
 

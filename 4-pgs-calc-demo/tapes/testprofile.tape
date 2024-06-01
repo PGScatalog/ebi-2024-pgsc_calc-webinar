@@ -56,20 +56,29 @@
 #   Show                            Show the subsequent commands in the output
 
 Output test.gif
+Output test.mp4
 
 Require nextflow
 
 Set Shell "zsh"
-Set FontSize 24
-Set Width 1800
-Set Height 1200
+Set FontSize 14
+Set Width 800
+Set Height 600
 Set WindowBar Colorful
 
-Sleep 2s 
+Set Framerate 30
 
-Type "nextflow run pgscatalog/pgsc_calc -profile test,docker,arm --outdir results" 
+Type "nextflow run pgscatalog/pgsc_calc -profile test,docker,arm \"
 
-Sleep 5s 
+Enter
+
+Type "--outdir results \"
+
+Enter
+
+Type "-r v2.0.0-alpha.5" 
+
+Sleep 10s 
 
 Enter
 
