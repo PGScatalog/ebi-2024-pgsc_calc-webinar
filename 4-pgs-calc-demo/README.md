@@ -17,7 +17,7 @@ And open them in a web browser to see some example output reports from the PGS C
 
 ## Slides
 
-[PDF slides are also available.](slides/slides_pgsc_calc.pdf)
+[PDF slides are also available.](slides/)
 
 ## Next steps
 
