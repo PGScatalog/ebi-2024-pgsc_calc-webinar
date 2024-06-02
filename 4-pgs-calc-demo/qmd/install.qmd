@@ -184,7 +184,7 @@ Hello world!
 To install `pgsc_calc` and calculate some PGS, you can run the calculator using the test profile: 
 
 ```bash
-$ nextflow run pgscatalog/pgsc_calc -profile test,docker --outdir results
+$ nextflow run pgscatalog/pgsc_calc -profile test,docker -r v2.0.0-alpha.5 --outdir results
 ```
 
 ::: {.callout-tip}
@@ -194,10 +194,6 @@ When you try this for the first time it can take a few minutes to finish, depend
 
 ::: {.callout-important} 
 If your computer uses the ARM architecture (like modern M1 Macs) you need to change: `-profile test,docker` to `-profile test,docker,arm` in the example above
-:::
-
-::: {.callout-tip}
-If you've used the calculator before, please include the parameter `-latest` to grab the most recent release
 :::
 
 You should see output that looks like:
@@ -272,7 +268,7 @@ If you use pgscatalog/pgsc_calc for your analysis please cite:
 ```
 </details>
 
-![](img/testprofile.gif)
+![A screen recording of the test profile running](../tapes/testprofile.mp4)
 
 If you can see the message `Pipeline completed successfully`, that means you've:
 
@@ -283,6 +279,22 @@ Well done! 🎉
 
 ::: {.callout-tip} 
 If things don't look quite right, please open [a discussion or issue on GitHub describing your problem](https://github.com/PGScatalog/pgsc_calc/issues/new/choose)
+:::
+
+## Choosing and finding calculator versions 
+
+For reproducibility, it's best to specify which version of the calculator you want to run. To see available versions:
+
+* Visit the [GitHub releases page](https://github.com/PGScatalog/pgsc_calc/releases)
+* Find the latest production release (it has a green "Latest" badge in the release header)
+* Get the tag of the release
+
+![A screenshot of an example release, with the tag `v2.0.0-alpha.5` in the left column highlighted in yellow](../img/tag.png)
+
+* Include this tag when running the workflow by including `-r <tag>` whenever you use the calculator
+
+::: {.callout-tip} 
+You can choose to use the latest version of the calculator if you prefer by replacing `-r` with `-latest`. This will also update your local copy if a new release has been published after you installed the calculator. 
 :::
 
 ## Results 
