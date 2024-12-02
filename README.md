@@ -1,6 +1,6 @@
 # EBI Training Webinar: Calculating polygenic scores with the Polygenic Score Catalog Calculator
 
-This repository contains training materials for the [EMBL-EBI Training Webinar]([https://2024.eshg.org/](https://www.ebi.ac.uk/training/events/calculating-polygenic-scores-polygenic-score-catalog-calculator/) workshop "Calculating polygenic scores with the Polygenic Score Catalog Calculator". 
+This repository contains training materials for the [EMBL-EBI Training Webinar](https://www.ebi.ac.uk/training/events/calculating-polygenic-scores-polygenic-score-catalog-calculator/) workshop "Calculating polygenic scores with the Polygenic Score Catalog Calculator". 
 
 The workshop had four sections. See below for slides, data, and code examples for each section:
 
